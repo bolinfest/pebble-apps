@@ -1,0 +1,13 @@
+android_resource(
+  name = 'res',
+  res = 'res',
+  package = 'com.bolinfest.pebble',
+  visibility = [
+    '//java/com/bolinfest/pebble/demo/notification:',
+  ],
+)
+
+project_config(
+  src_target = ':res',
+  src_roots = None,
+)

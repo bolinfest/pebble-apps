@@ -1,0 +1,16 @@
+android_library(
+  name = 'notification',
+  srcs = glob(['*.java']),
+  deps = [
+    '//java/com/bolinfest/pebble/api/intent:intent',
+    '//res/com/bolinfest/pebble/demo/notification:res',
+    '//third_party/java/gson:gson',
+  ],
+  visibility = [
+    '//apps/notification_demo:notification_demo',
+  ],
+)
+
+project_config(
+  src_target = ':notification',
+)

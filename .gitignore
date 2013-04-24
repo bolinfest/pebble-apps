@@ -1,0 +1,18 @@
+# TODO(mbolin): https://github.com/facebook/buck/issues/5
+/buck-android
+
+# Buck
+/buck-out
+/local.properties
+
+# IntelliJ
+*.iml
+/.idea/compiler.xml
+/.idea/libraries/*.xml
+/.idea/modules.xml
+/.idea/runConfigurations/Debug_Buck_test.xml
+/.idea/workspace.xml
+/out
+
+debug.keystore
+debug.keystore.properties

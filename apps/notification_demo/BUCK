@@ -1,0 +1,20 @@
+android_resource(
+  name = 'res',
+  res = 'res',
+  package = 'com.bolinfest.pebble.demo.notification',
+)
+
+android_binary(
+  name = 'notification_demo',
+  manifest = 'AndroidManifest.xml',
+  target = 'Google Inc.:Google APIs:16',
+  keystore_properties = 'debug.keystore.properties',
+  deps = [
+    ':res',
+    '//java/com/bolinfest/pebble/demo/notification:notification',
+  ],
+)
+
+project_config(
+  src_target = ':notification_demo',
+)

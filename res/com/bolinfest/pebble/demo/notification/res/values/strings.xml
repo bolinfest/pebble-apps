@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="simple_message_title_hint">message title</string>
+  <string name="simple_message_title_default">Incoming msg</string>
+
+  <string name="simple_message_body_hint">message body</string>
+  <string name="simple_message_body_default">Hello!</string>
+
+  <string name="simple_message_send_button_label">Send</string>
+</resources>

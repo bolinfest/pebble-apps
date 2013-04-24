@@ -1,0 +1,5 @@
+prebuilt_jar(
+  name = 'gson',
+  binary_jar = 'gson-2.2.2.jar',
+  visibility = [ 'PUBLIC' ],
+)

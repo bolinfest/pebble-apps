@@ -1,0 +1,6 @@
+[java]
+    src_roots = /java/
+[project]
+    default_android_manifest = //res/AndroidManifest.xml
+[alias]
+    notification-demo = //apps/notification_demo:notification_demo
